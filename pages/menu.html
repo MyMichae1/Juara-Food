@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juara Foods | Menu</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+  <!-- Upper Nav -->
+  <div class="px-8 mx-auto">
+    <div class="py-4 border-b-2 text-end px-11">
+      <a href="../pages/about.html" class="text-black">About us</a> <span class="px-2 text-slate-300">|</span>
+      <a href="../pages/contact.html" class="text-black">Contact Us</a> <span class="px-2 text-slate-300">|</span>
+      <a href="../pages/auth/login.html" class="text-black">Login/Register</a>
+    </div>
+  </div>
+  <!-- End Upper Nav -->
+
+  <!-- Main Navbar -->
+  <nav class="container flex items-center justify-between mx-auto mt-4" data-aos="fade-down">
+    <div class="flex items-center">
+      <img class="w-40 mr-14" src="../assets/images/logo.png" alt="">
+      <ul class="flex items-center text-lg gap-x-16">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/menu.html">Menu</a></li>
+        <li><a href="../pages/menu.html">Order Food</a></li>
+        <li>
+          <div class="flex items-center gap-x-5">
+            <i class="text-2xl text-gray-700 fa-solid fa-phone"></i>
+            <div class="text-lg">
+              <p>Call us For Order</p>
+              <a class="font-semibold text-primary" href="#">+62-817-4423-2323</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="flex items-center gap-x-12">
+      <a href="../pages/keranjang.html" class="relative inline-block">
+        <i class="text-3xl text-gray-600 fa-solid fa-cart-shopping"></i>
+        <span
+          class="absolute top-0 right-0 px-2 py-1 text-xs font-bold text-white transform translate-x-1/2 -translate-y-1/2 bg-yellow-500 rounded-full">5</span>
+      </a>
+      <a href="../pages/menu.html"
+        class="px-4 py-2 text-white transition-shadow duration-200 rounded-full bg-primary hover:shadow-lg">Order
+        Now</a>
+    </div>
+  </nav>
+  <!-- End Main Navbar -->
+
+  <!-- our menu -->
+  <section class="container mx-auto mt-16">
+    <div class="flex items-center justify-between ">
+      <h2 class="text-3xl font-bold">Our Menu</h2>
+      <div class="search-bar">
+        <div class="relative w-[600px]">
+          <input type="text" placeholder="Search food or drink"
+            class="p-2 pl-8 border border-gray-300 rounded-full pr-44 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent">
+          <button
+            class="absolute right-0 px-8 py-2 mt-1 mr-1 text-white uppercase bg-black rounded-full -top-1">Send</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- button -->
+    <section class="mt-16">
+      <div class="flex justify-center mb-8 space-x-4">
+        <button id="view-all-btn"
+          class="px-4 py-2 text-white transition-colors border-2 rounded-full shadow-xl border-primary bg-primary hover:bg-primary hover:border-primary hover:text-white">View
+          All</button>
+        <button id="indonesia-btn"
+          class="px-4 py-2 transition-colors border-2 rounded-full text-primary-slate-500 hover:bg-primary hover:border-primary hover:text-white">Indonesian
+          Foods</button>
+        <button id="drinks-btn"
+          class="px-4 py-2 transition-colors border-2 rounded-full text-primary-slate-500 hover:bg-primary hover:border-primary hover:text-white">Drinks</button>
+        <button id="japanese-btn"
+          class="px-4 py-2 transition-colors border-2 rounded-full text-primary-slate-500 hover:bg-primary hover:border-primary hover:text-white">Japanese
+          Foods</button>
+
+      </div>
+    </section>
+
+    <section class="container mx-auto">
+      <!-- All Food Indonesia -->
+      <div class="" id="indonesia">
+        <div class="grid grid-cols-3 mb-10">
+          <card-component image="../assets/images/menu/sotobanjar.png" title="Soto Banjar"
+            desc="Lorem ipsum, dolor sit amet" price="22.000" rating="5"></card-component>
+          <card-component image="../assets/images/menu/lontongsayur.png" title="Lontong Sayur"
+            desc="Lorem ipsum, dolor sit amet" price="18.000" rating="4"></card-component>
+          <card-component image="../assets/images/menu/rendangsapi.png" title="Rendang Sapi"
+            desc="Lorem ipsum, dolor sit amet" price="25.000" rating="5"></card-component>
+        </div>
+        <div class="grid grid-cols-3 mb-10">
+          <card-component image="../assets/images/menu/nasikuning.png" title="Nasi" desc="Lorem ipsum, dolor sit amet"
+            price="15.000" rating="5"></card-component>
+          <card-component image="../assets/images/menu/nilabakar.png" title="Nila Bakar"
+            desc="Lorem ipsum, dolor sit amet" price="22.000" rating="4"></card-component>
+          <card-component image="../assets/images/menu/gadogado.png" title="Gado-Gado"
+            desc="Lorem ipsum, dolor sit amet" price="10.000" rating="5"></card-component>
+        </div>
+        <div class="grid grid-cols-3 mb-10">
+          <card-component image="../assets/images/menu/rawon.png" title="Rawon" desc="Lorem ipsum, dolor sit amet"
+            price="20.000" rating="5"></card-component>
+          <card-component image="../assets/images/menu/nasipadang.png" title="Nasi Padang"
+            desc="Lorem ipsum, dolor sit amet" price="10.000" rating="4"></card-component>
+          <card-component image="../assets/images/menu/tempemendoan.png" title="Rendang Sapi"
+            desc="Lorem ipsum, dolor sit amet" price="12.000" rating="5"></card-component>
+        </div>
+        <div class="grid grid-cols-3 mb-10">
+          <card-component image="../assets/images/menu/buburayam.png" title="Bubur Ayam"
+            desc="Lorem ipsum, dolor sit amet" price="10.000" rating="5"></card-component>
+          <card-component image="../assets/images/menu/pempek.png" title="Pempek Palembang"
+            desc="Lorem ipsum, dolor sit amet" price="15.000" rating="4"></card-component>
+          <card-component image="../assets/images/menu/ayambakar.png" title="Ayam Bakar"
+            desc="Lorem ipsum, dolor sit amet" price="15.000" rating="5"></card-component>
+        </div>
+      </div>
+
+      <!-- All Drink -->
+      <div class="" id="drinks">
+        <div class="grid grid-cols-3 mb-10">
+          <card-component image="../assets/images/menu/soju.png" title="Soju" desc="Lorem ipsum, dolor sit amet"
+            price="25.000" rating="5"></card-component>
+          <card-component image="../assets/images/menu/kelapamuda.png" title="Es Kelapa Muda"
+            desc="Lorem ipsum, dolor sit amet" price="8.000" rating="4"></card-component>
+          <card-component image="../assets/images/menu/matcha.png" title="Matcha" desc="Lorem ipsum, dolor sit amet"
+            price="10.000" rating="5"></card-component>
+        </div>
+        <div class="grid grid-cols-3 mb-10">
+          <card-component image="../assets/images/menu/lemontea.png" title="Lemon Tea"
+            desc="Lorem ipsum, dolor sit amet" price="5.000" rating="5"></card-component>
+          <card-component image="../assets/images/menu/airmineral.png" title="Air Mineral"
+            desc="Lorem ipsum, dolor sit amet" price="5.000" rating="4"></card-component>
+          <card-component image="../assets/images/menu/calpis.png" title="Calpis" desc="Lorem ipsum, dolor sit amet"
+            price="15.000" rating="5"></card-component>
+        </div>
+        <div class="grid grid-cols-3 mb-10">
+          <card-component image="../assets/images/menu/esteh.png" title="Es Teh" desc="Lorem ipsum, dolor sit amet"
+            price="3.000" rating="5"></card-component>
+          <card-component image="../assets/images/menu/escendol.png" title="Es Cendol"
+            desc="Lorem ipsum, dolor sit amet" price="10.000" rating="4"></card-component>
+          <card-component image="../assets/images/menu/mangonada.png" title="Mangonada"
+            desc="Lorem ipsum, dolor sit amet" price="22.000" rating="5"></card-component>
+        </div>
+        <div class="grid grid-cols-3 mb-10">
+          <card-component image="../assets/images/menu/strawmilk.png" title="Strawberry Milk"
+            desc="Lorem ipsum, dolor sit amet" price="20.000" rating="5"></card-component>
+          <card-component image="../assets/images/menu/jussemangka.png" title="Jus Semangka"
+            desc="Lorem ipsum, dolor sit amet" price="15.000" rating="4"></card-component>
+          <card-component image="../assets/images/menu/jusbuahnaga.png" title="Jus Buah Naga"
+            desc="Lorem ipsum, dolor sit amet" price="10.000" rating="5"></card-component>
+        </div>
+      </div>
+
+      <!-- Japanese Foods -->
+      <div class="" id="japanese">
+        <div class="grid grid-cols-3 mb-10">
+          <card-component image="../assets/images/menu/misochicken.png" title="Miso Chicken"
+            desc="Lorem ipsum, dolor sit amet" price="20.000" rating="5"></card-component>
+          <card-component image="../assets/images/menu/yakitori.png" title="Yakitori" desc="Lorem ipsum, dolor sit amet"
+            price="15.000" rating="4"></card-component>
+          <card-component image="../assets/images/menu/sushi.png" title="Sushi" desc="Lorem ipsum, dolor sit amet"
+            price="18.000" rating="5"></card-component>
+        </div>
+        <div class="grid grid-cols-3 mb-10">
+          <card-component image="../assets/images/menu/tempura.png" title="Tempura" desc="Lorem ipsum, dolor sit amet"
+            price="18.000" rating="5"></card-component>
+          <card-component image="../assets/images/menu/ramen.png" title="Ramen" desc="Lorem ipsum, dolor sit amet"
+            price="18.000" rating="4"></card-component>
+          <card-component image="../assets/images/menu/gyoza.png" title="Gyoza" desc="Lorem ipsum, dolor sit amet"
+            price="18.000" rating="5"></card-component>
+        </div>
+        <div class="grid grid-cols-3 mb-10">
+          <card-component image="../assets/images/menu/chickenkatsu.png" title="Chicken Katsu"
+            desc="Lorem ipsum, dolor sit amet" price="18.000" rating="5"></card-component>
+          <card-component image="../assets/images/menu/misosoup.png" title="Miso Soup"
+            desc="Lorem ipsum, dolor sit amet" price="18.000" rating="4"></card-component>
+          <card-component image="../assets/images/menu/dorayaki.png" title="Dorayaki" desc="Lorem ipsum, dolor sit amet"
+            price="18.000" rating="5"></card-component>
+        </div>
+        <div class="grid grid-cols-3 mb-10">
+          <card-component image="../assets/images/menu/tunaonigiri.png" title="Tuna Onigiri"
+            desc="Lorem ipsum, dolor sit amet" price="20.000" rating="5"></card-component>
+          <card-component image="../assets/images/menu/tamagoyaki.png" title="Tamogoyaki"
+            desc="Lorem ipsum, dolor sit amet" price="15.000" rating="4"></card-component>
+          <card-component image="../assets/images/menu/karaage.png" title="Karaage" desc="Lorem ipsum, dolor sit amet"
+            price="18.000" rating="5"></card-component>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="mt-40 bg-[#1E1E1E] pt-10 rounded-t-3xl">
+    <div class="container mx-auto">
+      <div class="flex items-center justify-between gap-x-28" data-aos="fade-up">
+        <img class="object-contain w-40 mr-14" src="../assets/images/logoputih.png" alt="">
+        <div class="flex mt-5 mb-6">
+          <div class="relative w-[600px]">
+            <input type="email" placeholder="Enter Email Address"
+              class="p-2 pl-8 border border-gray-300 rounded-full pr-44 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent">
+            <button
+              class="absolute right-0 px-8 py-3 mt-1 mr-1 text-white uppercase bg-black rounded-full -top-2">Send</button>
+          </div>
+        </div>
+        <img class="object-contain w-40 opacity-0 mr-14" src="../assets/images/logoputih.png" alt="">
+      </div>
+      <div class="grid grid-cols-4 mx-40 mt-10" data-aos="fade-up">
+        <div class="text-secondary">
+          <h3 class="text-2xl font-semibold">Quick links</h3>
+          <ul class="mt-8 space-y-6 text-xl">
+            <li><a href="../pages/about.html">About us</a></li>
+            <li><a href="../pages/menu.html">Menu</a></li>
+            <li><a href="../pages/menu.html">Order Food</a></li>
+            <li><a href="../pages/contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="text-secondary">
+          <h3 class="text-2xl font-semibold">Our Menus</h3>
+          <ul class="mt-8 space-y-6 text-xl">
+            <li><a href="../pages/menu.html">Ikan Bakar</a></li>
+            <li><a href="pages/menu.html">Nasi Kuning</a></li>
+            <li><a href="pages/menu.html">Es Cendol</a></li>
+            <li><a href="pages/menu.html">Sushi</a></li>
+          </ul>
+        </div>
+        <div class="text-secondary justify-self-center">
+          <h3 class="text-2xl font-semibold">Get in Touch</h3>
+          <div class="mt-8 space-y-4 text-[15px]">
+            <div class="flex items-start gap-x-5">
+              <img class="object-contain" src="../assets/icon/location.png" alt="">
+              <p>Jalan Diponegoro No. 45 Kelurahan Mangunsari, Kecamatan Sidomukti, Kota Salatiga,.</p>
+            </div>
+            <div class="flex items-center gap-x-5">
+              <img class="object-contain" src="../assets/icon/telp.png" alt="">
+              <p>+62-817-4423-2323</p>
+            </div>
+            <div class="flex items-center gap-x-5">
+              <img class="object-contain" src="../assets/icon/mail.png" alt="">
+              <p>juarafood@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="text-secondary justify-self-end">
+          <h3 class="text-2xl font-semibold">Social Media</h3>
+          <div class="mt-8 space-y-4 text-[15px]">
+            <div class="flex items-center gap-x-5">
+              <img class="object-contain" src="../assets/icon/ri_instagram-fill.png" alt="">
+              <p>JuaraFoods</p>
+            </div>
+            <div class="flex items-center gap-x-5">
+              <img class="object-contain" src="../assets/icon/ic_outline-facebook.png" alt="">
+              <p>JuaraFoods</p>
+            </div>
+            <div class="flex items-center gap-x-5">
+              <img class="object-contain" src="../assets/icon/simple-icons_gojek.png" alt="">
+              <p>JuaraFoods</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-16">
+      <div class="flex justify-between px-10 py-4 text-sm text-center text-white bg-black">
+        <p>&copy; 2024 Juara Foods. All Rights Reserved</p>
+        <p><a href="#" class="hover:underline">Privacy Policy</a> | <a href="#" class="hover:underline">Terms of
+            Use</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer Section -->
+
+  <script src="https://kit.fontawesome.com/14cfca22c7.js" crossorigin="anonymous"></script>
+  <script src="../assets/js/utils/component.js"></script>
+  <script src="../assets/js/utils/menu.js"></script>
+</body>
+
+</html>
