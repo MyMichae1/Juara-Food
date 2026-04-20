@@ -28,7 +28,7 @@ Berikut adalah pratinjau antarmuka utama **Juara Foods** yang dioptimalkan untuk
 Website ini dibangun dengan kombinasi teknologi modern untuk memastikan performa maksimal:
 **Frontend**: HTML5 dan Tailwind CSS untuk desain yang bersih dan responsif.
 **Animasi**: AOS.js (Animate On Scroll) untuk memberikan efek transisi visual saat menjelajahi halaman.
-**Ikonografi**: FontAwesome 6 [cite: 1424] [cite_start]dan Google Fonts (Poppins) untuk estetika tipografi yang modern.
+**Ikonografi**: FontAwesome 6 dan Google Fonts (Poppins) untuk estetika tipografi yang modern.
 **Interaktivitas**: JavaScript kustom untuk menangani logika menu dan komponen UI.
 
 ---
