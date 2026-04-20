@@ -3,7 +3,7 @@
 [![School](https://img.shields.io/badge/University-UKSW-maroon?style=for-the-badge)](https://www.uksw.edu/)
 [![JS](https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-[cite_start]**Juara Foods** adalah platform UMKM kuliner modern yang menjembatani kelezatan autentik masakan tradisional Indonesia dengan seni kuliner Jepang[cite: 1712, 1715]. [cite_start]Website ini dirancang untuk memberikan pengalaman pemesanan makanan yang mulus, interaktif, dan visual yang menggugah selera bagi pelanggan[cite: 2591, 2597].
+[cite_start]**Juara Foods** adalah platform UMKM kuliner modern yang menjembatani kelezatan autentik masakan tradisional Indonesia dengan seni kuliner Jepang. [cite_start]Website ini dirancang untuk memberikan pengalaman pemesanan makanan yang mulus, interaktif, dan visual yang menggugah selera bagi pelanggan[cite: 2591, 2597].
 
 ---
 
